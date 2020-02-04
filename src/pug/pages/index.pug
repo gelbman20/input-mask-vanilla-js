@@ -1,0 +1,13 @@
+extends ../_skeleton
+
+block variables
+  - title = 'Home Default'
+
+block page
+  .section
+    .container
+      .row.align-items-end
+        .col-10.col-sm-6.col-md-5.col-lg-4
+          .form-group
+            label(for='phone') Email address
+            input#phone.form-control(type='text' aria-describedby='phoneHelp' placeholder='Enter phone')
