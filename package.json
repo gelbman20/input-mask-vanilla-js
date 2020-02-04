@@ -9,8 +9,11 @@
   "author": "Andrii Helever <gelbman20@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5"
